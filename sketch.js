@@ -87,10 +87,10 @@ function draw() {
     zombie.velocityX = 10;
     zombie.changeAnimation("lefttoright");
 
-    drawSprites();
+   
   }
 
-  
+   drawSprites();
 }
 function handleButtonPress(){
   jointLink.detach();
